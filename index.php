@@ -12,8 +12,11 @@
 <body>
 
 	<?php
+
+	    include("config.php");
         
         $user_login = false;
+
         if($user_login == true){
 
         }else{
