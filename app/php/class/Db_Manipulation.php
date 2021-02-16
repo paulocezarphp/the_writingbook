@@ -15,39 +15,39 @@
        	
        }
        
-       public function CreateProject(){
+       public function CreateProject($title, $subtitle, $category, $date_create, $user_id){
        	
        }
 
-       public function DeleteProject(){
+       public function DeleteProject($id_project){
        	
        }
 
-       public function EditProject(){
+       public function EditProject($id_project, $title, $subtitle, $category){
        	
        }
 
-       public function CreateBook(){
+       public function CreateBook($title, $subtitle, $date_create, $category, $user_id, $user_project, $description_book){
        	
        }
 
-       public function DeleteBook(){
+       public function DeleteBook($id_book){
        	
        }
 
-       public function EditBook(){
+       public function EditBook($id_book, $title, $subtitle, $category){
        	
        }
 
-       public function CreateChapter(){
+       public function CreateChapter($id_book, $title, $subtitle, $context){
        	
        }
 
-       public function DeleteChapter(){
+       public function DeleteChapter($id_chapter){
        	
        }
 
-       public function EditChapter(){
+       public function EditChapter($title, $subtitle, $context){
        	
        }	
 

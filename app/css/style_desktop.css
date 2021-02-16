@@ -83,6 +83,14 @@
 	cursor: pointer;
 }
 
+.login-button-a:hover{
+    background: #558000;
+}
+
+.login-button-a:active{
+    background: #669900;
+}
+
 .login-button-b{
 	display: block;
 	margin-top: 10px;	
@@ -98,3 +106,12 @@
 	border-radius: 3px;
 	cursor: pointer;
 }
+
+.login-button-b:hover{
+    background: #008ae6;
+}
+
+.login-button-b:active{
+    background: #1aa3ff;
+}
+
