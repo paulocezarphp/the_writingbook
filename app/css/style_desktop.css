@@ -1,3 +1,4 @@
+
 .login{
     width: 700px;
 	position: absolute;
@@ -115,3 +116,34 @@
     background: #1aa3ff;
 }
 
+.box{
+    width: 900px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.box-group{
+	background: #fff;
+	display: grid;
+	grid-template-columns: 300px auto;
+}
+
+.box-right{
+    padding: 20px 40px;
+}
+
+.box-left{
+    padding: 20px 40px;
+}
+
+.box-title{
+   font-weight: bold;
+   font-size: 25px;
+   color: #fff;
+}
+
+.box-sub-title{
+   font-weight: bold;
+   font-size: 18px;
+}

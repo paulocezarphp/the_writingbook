@@ -15,10 +15,10 @@
 
 	    include("config.php");
         
-        $user_login = false;
+        $user_login = true;
 
         if($user_login == true){
-
+            include("app/page_home.php");
         }else{
             include("app/page_login.php");
         }  
