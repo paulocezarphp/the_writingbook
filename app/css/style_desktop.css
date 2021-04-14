@@ -1,6 +1,17 @@
+.menu{
+	position: absolute;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 20px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+}
 
 .login{
-    width: 700px;
+	width: 700px;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
@@ -85,11 +96,11 @@
 }
 
 .login-button-a:hover{
-    background: #558000;
+	background: #558000;
 }
 
 .login-button-a:active{
-    background: #669900;
+	background: #669900;
 }
 
 .login-button-b{
@@ -109,41 +120,94 @@
 }
 
 .login-button-b:hover{
-    background: #008ae6;
+	background: #008ae6;
 }
 
 .login-button-b:active{
-    background: #1aa3ff;
+	background: #1aa3ff;
 }
 
 .box{
-    width: 900px;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
+	width: 900px;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	margin-top: 80px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+	box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+
 }
 
 .box-group{
 	background: #fff;
 	display: grid;
-	grid-template-columns: 300px auto;
+	grid-template-columns: 250px auto;
 }
 
 .box-right{
-    padding: 20px 40px;
+	padding: 20px 40px;
 }
 
 .box-left{
-    padding: 20px 40px;
+
 }
 
 .box-title{
-   font-weight: bold;
-   font-size: 25px;
-   color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	padding: 20px 20px;
 }
 
 .box-sub-title{
-   font-weight: bold;
-   font-size: 18px;
+	font-weight: bold;
+	font-size: 22px;
+	color: #999;
+	margin-bottom: 15px;
+}
+
+.box-item-left{
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+	color: rgba(255,255,255, 0.6);
+	padding: 15px 20px;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.box-item-left:hover{
+	background: rgba(255,255,255, 0.1);
+}
+
+.box-item-left:active{
+	background: rgba(255,255,255, 0.15);
+}
+
+.box-item-right{
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	font-size: 14px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.box-item-right:hover{
+	background: rgba(155,155,155, 0.08);
+}
+
+.box-item-right:active{
+	background: rgba(155,155,155, 0.15);
 }

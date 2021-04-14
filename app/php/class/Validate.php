@@ -2,7 +2,6 @@
 
    class Validate{
 
-
        public function ValidateName(){
 
        }
@@ -31,7 +30,6 @@
 
        }
        	
-
    }
 
 ?>
