@@ -18,7 +18,20 @@
         $user_login = true;
 
         if($user_login == true){
-            include("app/page_home.php");
+
+            @$url_link = $_GET['url_link'];
+            if($url_link == "home"){
+                include("app/page_home.php");
+            }elseif($url_link == "books"){
+                include("app/page_book.php");
+            }elseif($url_link == "chapters"){
+                include("app/page_chapter.php");
+            }elseif($url_link == "edite"){
+                include("app/page_edite.php");
+            }else{
+                include("app/page_home.php");
+            }
+
         }else{
             include("app/page_login.php");
         }  

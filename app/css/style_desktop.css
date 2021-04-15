@@ -139,11 +139,24 @@
 
 }
 
+.box-edite{
+	width: 1024px;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	margin-top: 80px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+	box-shadow: 0px 0px 5px 0px rgba(117,117,117,0.24);
+
+}
+
 .box-group{
 	background: #fff;
 	display: grid;
 	grid-template-columns: 250px auto;
 }
+
 
 .box-right{
 	padding: 20px 40px;
@@ -192,9 +205,11 @@
 }
 
 .box-item-right{
-	border-bottom: 1px solid rgba(0,0,0, 0.1);
+	border-bottom: 1px solid rgba(0,0,0, 0.05);
 	padding-top: 10px;
 	padding-bottom: 10px;	
+	padding-left: 15px;
+	padding-right: 15px;
 	font-size: 14px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -210,4 +225,11 @@
 
 .box-item-right:active{
 	background: rgba(155,155,155, 0.15);
+}
+
+.box-editable{
+
+	font-weight: 300;
+	line-height: 26px;
+    
 }

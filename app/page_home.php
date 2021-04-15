@@ -11,16 +11,16 @@
 		</div>	
 		<div class="box-right">
            <div class="box-sub-title">Projects</div>
-           <div class="box-item-right theme-color">Project book 1</div>
-           <div class="box-item-right theme-color">Project book 2</div>
-           <div class="box-item-right theme-color">Project book 3</div>
-           <div class="box-item-right theme-color">Project book 4</div>
-           <div class="box-item-right theme-color">Project book 5</div>
-           <div class="box-item-right theme-color">Project book 6</div>
-           <div class="box-item-right theme-color">Project book 7</div>
-           <div class="box-item-right theme-color">Project book 8</div>
-           <div class="box-item-right theme-color">Project book 9</div>
-           <div class="box-item-right theme-color">Project book 10</div>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 1</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 2</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 3</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 4</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 5</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 6</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 7</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 8</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 9</div></a>
+           <a href="?url_link=books"><div class="box-item-right theme-color">Project 10</div></a>
 		   <br><br><br><br>
 		</div>	
 	</div>	
