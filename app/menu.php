@@ -1,3 +1,3 @@
 <div class="menu theme-background">
-	<div class="menu-item">The Writing Book</div>
+	<a href="./"><div class="menu-item">The Writing Book</div></a>
 </div>

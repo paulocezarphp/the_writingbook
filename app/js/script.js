@@ -1,0 +1,4 @@
+function CharacterCounter(string){
+
+}
+

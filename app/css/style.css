@@ -14,3 +14,8 @@ body{
 .theme-background{
 	background: #5f0dae;
 }
+
+a{  
+	color: #111;
+	text-decoration: none;
+}
