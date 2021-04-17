@@ -1,58 +1,78 @@
 <?php
 
-   class Db_Manipulation{
+class Db_Manipulation{
 
 
-       public function CreateUser(){
+     function CreateUser(){
 
-       }
+     }
 
-       public function DeleteUser(){
-       	
-       }
+     function DeleteUser(){
 
-       public function EditUser(){
-       	
-       }
-       
-       public function CreateProject($title, $subtitle, $category, $date_create, $user_id){
-       	
-       }
+     }
 
-       public function DeleteProject($id_project){
-       	
-       }
+     function EditeUser(){
 
-       public function EditProject($id_project, $title, $subtitle, $category){
-       	
-       }
+     }
 
-       public function CreateBook($title, $subtitle, $date_create, $category, $user_id, $user_project, $description_book){
-       	
-       }
+     function ValideLogin(){
 
-       public function DeleteBook($id_book){
-       	
-       }
+     }
 
-       public function EditBook($id_book, $title, $subtitle, $category){
-       	
-       }
+     function QuitLogin(){
 
-       public function CreateChapter($id_book, $title, $subtitle, $context){
-       	
-       }
+     }
 
-       public function DeleteChapter($id_chapter){
-       	
-       }
+     function CreateProject(){
 
-       public function EditChapter($title, $subtitle, $context){
-       	
-       }	
+     }
+
+     function DeleteProject(){
+
+     }
+
+     function EditeProject(){
+
+     }
+
+     function CreateBook(){
+      
+     }
+
+     function DeleteBook(){
+
+     }
+
+     function EditeBook(){
+      
+     }
+
+     function CreateChapter(){
+      
+     }
+
+     function DeleteChapter(){
+
+     }
+
+     function EditeChapter(){
+      
+     }
+
+     function ExportProject(){
+
+     }
+
+     function ExportBook(){
+      
+     }
+
+     function ExportChapter(){
+      
+     }
 
 
-       
-   }
+     
+}
 
 ?>
