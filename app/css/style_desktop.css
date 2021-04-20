@@ -175,9 +175,9 @@
 
 .box-sub-title{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 16px;
 	color: #999;
-	margin-bottom: 15px;
+	margin-bottom: 35px;
 }
 
 .box-item-left{
@@ -227,9 +227,34 @@
 	background: rgba(155,155,155, 0.15);
 }
 
-.box-editable{
+.box-editable-page{
 
+}
+
+.box-editable{
+	border: 1px solid #f8f8f8;
+	border-left: 1px solid #77b300;
+	outline: none; 
 	font-weight: 300;
 	line-height: 26px;
-    
+	padding: 20px 35px;
+	background: #f8f8f8;
+	
+}
+
+.box-editable:focus{
+    border: 1px solid #ccc;
+    border-left: 1px solid #77b300;
+}
+
+.box-editable-title{
+	outline: none; 
+	font-size: 22px;
+	font-weight: bold;
+	padding: 20px 35px;
+	background: #f2f2f2;
+	
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-left: 2px solid #ff4d4d;
 }

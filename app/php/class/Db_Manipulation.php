@@ -2,8 +2,15 @@
 
 class Db_Manipulation{
 
+     function ValideLogin(){
+     
+     }
 
-     function CreateUser(){
+     function QuitLogin(){
+
+     }
+
+     function CreateUser($name, $email, $password){
 
      }
 
@@ -12,14 +19,6 @@ class Db_Manipulation{
      }
 
      function EditeUser(){
-
-     }
-
-     function ValideLogin(){
-
-     }
-
-     function QuitLogin(){
 
      }
 

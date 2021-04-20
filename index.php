@@ -8,13 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="app/css/style.css">
 	<link rel="stylesheet" type="text/css" href="app/css/style_mobile.css">
     <link rel="stylesheet" type="text/css" href="app/css/style_desktop.css">
+    <?php include("config.php"); ?>
 </head>
 <body>
 
 	<?php
 
-	    include("config.php");
-        
         $user_login = true;
 
         if($user_login == true){
