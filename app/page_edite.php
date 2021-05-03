@@ -2,13 +2,8 @@
 <div class="box-edite">
 	<div class="box-group">
 		<div class="theme-background box-left">
-			<div class="box-title">Menu</div>	
-			<div class="box-item-left">Create Project</div>
-			<div class="box-item-left">Accounts and Users</div>
-			<div class="box-item-left">Settings</div>
-			<div class="box-item-left">Sign Out</div>
-			<br><br><br><br>
-		</div>	
+		   <?php include("menu_side.php"); ?>
+		</div>		
 		<div class="box-right">
 			<div class="box-sub-title">Project / Books / Chapter 1 - Name chapter title </div>
 
