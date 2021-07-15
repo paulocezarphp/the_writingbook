@@ -1,7 +1,7 @@
 <?php include("menu.php"); ?>
 <div class="box">
 	<div class="box-group">
-		<div class="theme-background box-left">
+		<div class="box-left">
 		   <?php include("menu_side.php"); ?>
 		</div>	
 		<div class="box-right">
