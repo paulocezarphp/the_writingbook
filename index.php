@@ -13,12 +13,14 @@
 <body>
 
 	<?php
+        
+        $install_validade = true;
+        $login_validade = true;
 
-        $user_login = true;
+        if($install_validade == true){
 
-        if($user_login == true){
-
-            @$url_link = $_GET['url_link'];
+            if($login_validade == true){
+               @$url_link = $_GET['url_link'];
             if($url_link == "home"){
                 include("app/page_home.php");
             }elseif($url_link == "books"){
@@ -30,9 +32,12 @@
             }else{
                 include("app/page_home.php");
             }
+            }else{
+                 include("app/page_login.php");
+            }
 
         }else{
-            include("app/page_login.php");
+            include("app/page_install.php");
         }  
 
 	?>
