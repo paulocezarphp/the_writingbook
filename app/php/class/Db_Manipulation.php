@@ -14,11 +14,11 @@ class Db_Manipulation{
 
      }
 
-     function DeleteUser(){
+     function DeleteUser($id_user){
 
      }
 
-     function EditeUser(){
+     function EditeUser($id_user){
 
      }
 
@@ -26,11 +26,11 @@ class Db_Manipulation{
 
      }
 
-     function DeleteProject(){
+     function DeleteProject($id_project){
 
      }
 
-     function EditeProject(){
+     function EditeProject($id_project){
 
      }
 
@@ -38,11 +38,11 @@ class Db_Manipulation{
       
      }
 
-     function DeleteBook(){
+     function DeleteBook($id_book){
 
      }
 
-     function EditeBook(){
+     function EditeBook($id_book){
       
      }
 
@@ -50,15 +50,16 @@ class Db_Manipulation{
       
      }
 
-     function DeleteChapter(){
+     function DeleteChapter($id_chapter){
 
      }
 
-     function EditeChapter(){
+     function EditeChapter($id_chapter){
       
      }
 
      function ExportProject(){
+
 
      }
 
