@@ -2,23 +2,19 @@
 
    class Validate{
 
-       public function ValidateName(){
+       public function ValidateName($name){
 
        }
 
-       public function ValidateEmail(){
+       public function ValidateEmail($email){
 
        }
 
-       public function ValidateLogin(){
+       public function ValidateLogin($login){
 
        }
 
-       public function ValidatePassword(){
-
-       }
-
-       public function ValidatePassword(){
+       public function ValidatePassword($password){
 
        }
 
