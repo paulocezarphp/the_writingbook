@@ -3,6 +3,16 @@
    class Validate{
 
        public function ValidateName($name){
+           
+           if(count($name) > 5){
+               
+               return "true";
+
+           }else{
+               
+               return "false";
+
+           }
 
        }
 

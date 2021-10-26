@@ -2,11 +2,11 @@
 
 class Db_Manipulation{
 
-     function ValideLogin(){
+     function ValideLogin($login_user, $password_user){
      
      }
 
-     function QuitLogin(){
+     function QuitLogin($login_user){
 
      }
 

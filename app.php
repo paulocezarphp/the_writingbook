@@ -2,6 +2,12 @@
 
    @$operation = $_POST['operation'];
 
+   if($operation != null){
+
+      include("config.php");
+      
+   }
+
    if($operation == "createuser" && $operation != null){
 
    }elseif($operation == "deleteuser" && $operation != null){
