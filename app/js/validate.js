@@ -1,11 +1,11 @@
-function ValidateName(string){
+function validateName(string){
 
 }
 
-function ValidateEmail(email){
+function validateEmail(email){
 	
 }
 
-function ValidatePassword(password){
+function validatePassword(password){
 	
 }
