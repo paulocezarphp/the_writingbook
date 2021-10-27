@@ -22,7 +22,7 @@ class Db_Manipulation{
 
      }
 
-     function CreateProject(){
+     function CreateProject($name_project){
 
      }
 

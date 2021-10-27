@@ -1,11 +1,20 @@
-function validateName(string){
+class Validate{
 
-}
+	function validate_Name(string){
 
-function validateEmail(email){
-	
-}
+	}
 
-function validatePassword(password){
-	
+	function validate_Email(email){
+
+	}
+
+	function validate_Password(password){
+
+	}
+
+	function characterCounter(string){
+
+	}
+
+
 }

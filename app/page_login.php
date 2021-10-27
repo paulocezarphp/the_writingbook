@@ -6,9 +6,9 @@
 	       <div class="login-sub-title">Create your account here</div>
 
            <div class="login-label">Login</div>
-           <input type="text" name="" class="login-input" placeholder="enter your login">
+           <input type="text" name="user_login" class="login-input" placeholder="enter your login">
            <div class="login-label">Password</div>
-           <input type="password" name="" class="login-input" placeholder="type your password">
+           <input type="password" name="user_password" class="login-input" placeholder="type your password">
            <button class="login-button-a">Confirm</button>
 
         </div>

@@ -2,19 +2,23 @@
 
    class Utilities{
 
-       public function FormatDate(){
+       public function Format_Date(){
            $date = date("Y-m-d");
            return $date;
        }
 
-       public function FormatTime(){
+       public function Format_Time(){
            $time = date("H:i:s");
            return = $time;
        }
 
-       public function FormatDateTime(){
+       public function Format_Date_Time(){
            $datetime = FormatDate()." ".FormatTime();
            return $datetime;
+       }
+
+       public function Code_Create(){
+           return "";
        }
        	
 
